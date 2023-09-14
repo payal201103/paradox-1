@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(194, 219, 241);
+}
+/*login form style create*/
+.container {
+    background: url("D:\photo-1476067897447-d0c5df27b5df.webp");
+    aspect-ratio: 16/9;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    margin: 10px auto 0;
+    width: 100%;
+    height: 50px;
+    font-size: 0;
+    border-radius: 8px;
+
+}
+
+nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(199, 25, 83);
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    z-index: 0;
+    background: rgb(195, 175, 139);
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+a:nth-child(1) {
+    width: 100px;
+}
+
+nav.strart-home,
+a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0px;
+
+}
+
+a:nth-child(2) {
+    width: 110px;
+}
+
+nav.strart-About,
+a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+
+}
+
+a:nth-child(3) {
+    width: 100px;
+}
+
+nav.strart-Blog,
+a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+
+}
+
+a:nth-child(4) {
+    width: 160px;
+}
+
+nav.strart-contact,
+a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+
+}
+
+a:nth-child(5) {
+    width: 120px;
+}
+
+nav.strart-login,
+a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 470px;
+
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 9px #db8181;
+    text-align: center;
+}
+
+.toogle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    border: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #db8181);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #db8181);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+.span {
+    color: #111010;
+    font-size: 12px;
+    bottom: 60px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+
+
+
+/*Register form style create*/
+.register {
+    width: 400px;
+    margin: 100px auto 0px auto;
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+
+}
+
+div.register {
+    background-color: #999;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+form #register {
+    margin: 40px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #f4e6e6;
+}
+
+input#submit {
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+
+}
