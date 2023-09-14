@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="D:\task\style.css">
+</head>
+
+<body>
+    <!-- login form-->
+    <div class="container">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+            <div class="animation start-home"></div>
+        </nav>
+        <div class="form-box">
+            <div class="button-box">
+                <div class="btn"></div>
+                <button type="button" class="toogle-btn">Login</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Register form-->
+    <div class="register">
+        <h1>Register Here</h1>
+        <form id="register" method="post">
+            <label> First Name:</label>
+            <br>
+            <input type="text" name="fname" id="name"> <br><br>
+            <label> Last Name :</label><br>
+            <input type="text" name="lname" id="name"> <br><br>
+            <label>Your Age:</label>
+            <br>
+            <input type="number" name="age" id="name"><br><br>
+            <label>E-mail:</label><br>
+            <input type="e-mail" name="e-mail" id="name"><br><br>
+            <label>Gender:</label>
+            <br>
+            <input type="radio" name="Gender" id="male">
+            <span id="male">male</span>
+            <input type="radio" name="Gender" id="female">
+            <span id="female">Female</span> <br>
+            <br>
+            <input type="submit" value="submit" name="submit" id="submit">
+        </form>
+    </div>
+
+</html
